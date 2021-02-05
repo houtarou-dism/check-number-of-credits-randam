@@ -1,0 +1,137 @@
+.main-position{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.auth-position{
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auth-content{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.auth-header{
+    margin-bottom: 1.5rem;
+}
+
+.header-text{
+    color: #fff;
+    font-weight: 900;
+}
+
+.auth-body{
+    background-color: #fff;
+}
+
+.auth-body-content{
+    padding: 2rem 1rem;
+}
+
+.auth-input{
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+}
+
+.auth-input::placeholder{
+    font-size: 1.2rem;
+}
+
+.auth-btn{
+    width: 100%;
+    font-weight: 900;
+    color: #fff;
+    background-color: #ffc54f;
+    border: 1px solid #ffbe3b;
+    border-radius: 0;
+}
+
+.auth-btn:hover{
+    background-color: #ffb51c;
+    border: 1px solid #ffae08;
+}
+
+.auth-btn:disabled{
+    cursor: default;
+}
+
+.auth-btn:disabled:hover{
+    background-color: #ffc54f;
+    border: 1px solid #ffbe3b;
+}
+
+.auth-footer{
+    margin-top: 2rem;
+}
+
+.auth-copyright-text{
+    color: #787878;
+}
+
+.auth-copyright-text-user{
+    color: #787878;
+}
+
+.auth-copyright-text-user:hover{
+    color: #000000;
+}
+
+@media (max-width: 410px) {
+    .auth-position{
+        width: 90%;
+    }
+}
+
+.random-body{
+    height: 100vh;
+}
+
+.main-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.random-content-container{
+    width: 20rem;
+    padding: 3rem 2rem;
+    background-color: #ffe8ba;
+    border: 1px solid #ffdd99;
+    border-radius: 0.4rem;
+    box-shadow: 3px 3px #ffd582;
+}
+
+.random-content-header{
+    margin-bottom: 2rem;
+}
+
+.select-name{
+    height: 8.25rem;
+    background-color: #ffda8f;
+}
+
+.reset-count{
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 420px) {
+
+    .random-body{
+        height: 100%;
+    }
+
+    .main-container{
+        margin-top: 5rem;
+        display: block;
+        justify-content: initial;
+        align-items: initial;
+    }
+
+    .random-content-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

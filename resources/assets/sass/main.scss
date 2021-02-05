@@ -1,0 +1,257 @@
+.select-year-position{
+    margin-top: 10rem;
+}
+
+.select-year-content{
+    width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    background-color: #ededed;
+    border: 2px solid #cfcfcf;
+    position: relative;
+}
+
+.select-year-footer{
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-year-title{
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.select-year-option{
+    position: relative;
+}
+
+.select-year{
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.select-year-option > select{
+    height: 3rem;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.down-arrow{
+    position: absolute;
+    width: 1rem;
+    top: 15px;
+    right: 15px;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+@media (max-width: 480px){
+
+    .select-year-content{
+        width: 18rem;
+    }
+
+    .select-year-title{
+        font-size: 1.3em;
+    }
+
+    .select-year{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .select-year-option > select{
+        height: 2.5rem;
+    }
+
+    .down-arrow{
+        width: 1rem;
+        top: 12px;
+        right: 10px;
+    }
+}
+
+.year-position{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.year-header{
+    margin-bottom: 3rem;
+}
+
+.field-content > .custom-checkbox > label:before{
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 0.5rem;
+    left: -2rem;
+}
+
+.field-content > .custom-checkbox > label:after{
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 0.5rem;
+    left: -2rem;
+}
+
+.field-content > .custom-checkbox{
+    font-size: 28px;
+}
+
+.content-position{
+    flex-wrap: wrap;
+}
+
+.field-content{
+    height: 100%;
+    width: 18rem;
+    margin: 1rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #f2f2f2;
+    border: 1px solid #dbd9d9;
+    border-radius: 0.5rem;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.1));
+}
+
+.field-title{
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #adacac;
+    display: inline-block;
+}
+
+.custom-checkbox-point{
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit-btn-position{
+    margin-top: 5rem;
+}
+
+@media (max-width: 1330px){
+    .field-content{
+        width: 25rem;
+    }
+}
+
+.confirmation-screen-position{
+    height: 100%;
+}
+
+.dialog-header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e6e7e9;
+    position: relative;
+}
+
+.dialog-close{
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+
+.dialog-close:focus{
+    outline: none;
+}
+
+.result-dialog{
+    user-select: none;
+}
+
+.modal-body > p{
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.dialog-operating-environment{
+    margin-top: 1.8rem;
+    border-bottom: 1px solid #c7c3c3;
+}
+
+.dialog-operating-environment-child{
+    padding-left: 5em;
+    text-indent: -5em;
+}
+
+.result-main-position{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.result-content-position{
+    width: 30rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid #a8d5ff;
+    border-radius: 0.5rem;
+    background-color: #dbeeff;
+}
+
+.content-header{
+    margin-top: 1rem;
+}
+
+.judgment-promotion-status-success{
+    color: #2130ff;
+    border-bottom: 2px solid #1226ff;
+    display: inline-block;
+}
+
+.judgment-promotion-status-failure{
+    color: #ff2121;
+    border-bottom: 2px solid #ff1212;
+    display: inline-block;
+}
+
+.point-text{
+    margin-top: 1rem;
+    font-size: 23px;
+    text-align: right;
+}
+
+.content-center{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: #ffbaba;
+    border: 1px solid #ffb0b0;
+    border-radius: 0.3rem;
+}
+
+.required-subject-header{
+    color: #fc5151;
+}
+
+.required-subject-center{
+    margin-top: 0.5rem;
+}
+
+.required-subject-content{
+    width: 90%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+@media (max-width: 768px){
+
+    .judgment-promotion-status{
+        font-size: 23px;
+    }
+
+    .point-text{
+        font-size: 15px;
+    }
+}

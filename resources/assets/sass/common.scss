@@ -1,0 +1,217 @@
+.i-s-11{
+    font-size: 1.1rem
+}
+
+.i-s-12{
+    font-size: 1.2rem
+}
+
+.i-s-13{
+    font-size: 1.3rem
+}
+
+.i-s-14{
+    font-size: 1.4rem
+}
+
+.i-s-15{
+    font-size: 1.5rem
+}
+
+.i-s-16{
+    font-size: 1.6rem
+}
+
+.i-s-17{
+    font-size: 1.7rem
+}
+
+.i-s-18{
+    font-size: 1.8rem
+}
+
+.i-s-19{
+    font-size: 1.9rem
+}
+
+.i-s-20{
+    font-size: 2rem
+}
+
+.f-s-12{
+    font-size: 12px;
+}
+
+.f-s-13{
+    font-size: 13px;
+}
+
+.f-s-14{
+    font-size: 14px;
+}
+
+.f-s-15{
+    font-size: 15px;
+}
+
+.f-s-16{
+    font-size: 16px;
+}
+
+.f-s-17{
+    font-size: 17px;
+}
+.f-s-18{
+    font-size: 18px;
+}
+
+.f-s-19{
+    font-size: 19px;
+}
+
+.f-s-20{
+    font-size: 20px;
+}
+
+.f-s-21{
+    font-size: 21px;
+}
+
+.f-s-22{
+    font-size: 22px;
+}
+
+.f-s-23{
+    font-size: 23px;
+}
+
+.f-s-24{
+    font-size: 24px;
+}
+
+.f-s-25{
+    font-size: 25px;
+}
+
+.f-s-26{
+    font-size: 26px;
+}
+
+.f-s-27{
+    font-size: 27px;
+}
+
+.f-s-28{
+    font-size: 28px;
+}
+
+.f-s-29{
+    font-size: 29px;
+}
+
+.f-s-30{
+    font-size: 30px;
+}
+
+.fo-wei{
+    font-weight: 900;
+}
+
+.popover-help{
+    color: #8202bd;
+}
+
+.popover-help:focus{
+    outline: none;
+}
+
+.popover-help-result{
+    color: #c647ff;
+}
+
+.popover-help-result:focus{
+    outline: none;
+}
+
+.popover-help-result-required{
+    color: #ff1919;
+}
+
+.popover-help-result-required:focus{
+    outline: none;
+}
+
+.check-submit-btn{
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 20px !important;
+    border: 1px solid #1c9dff;
+    background-color: #45aaf7;
+}
+
+.check-submit-btn:hover{
+    border: 1px solid #1457ff;
+    background-color: #336dff;
+}
+
+.check-submit-btn:disabled:hover{
+    cursor: default;
+}
+
+.submit-btn-size{
+    width: 20rem;
+    margin-right: 3rem;
+}
+
+.submit-btn{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #0c84fa;
+    border-radius: 0.4rem;
+    font-size: 20px !important;
+    color: white;
+    background-color: #2d95fc;
+}
+
+.submit-btn:hover{
+    color: white;
+    border: 1px solid #0f3fff;
+    background-color: #2d56fc;
+}
+
+.submit-btn-disabled{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #8cc1ff;
+    border-radius: 0.4rem;
+    font-size: 20px !important;
+    color: white;
+    background-color: #bddbff;
+    cursor: default;
+    pointer-events: none;
+    tab-index: '-1';
+}
+
+@media (max-width: 480px){
+
+    .submit-btn-size{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .submit-btn{
+        font-size: 18px !important;
+    }
+}
+
+.copyright-text{
+    color: #000000;
+}
+
+.copyright-text:hover{
+    color: #c7c5c5;
+}
